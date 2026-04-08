@@ -29,7 +29,7 @@
     background: var(--navy);
     color: var(--white);
     font-family: 'Exo 2', sans-serif;
-    font-weight: 300;
+    font-weight: 0;
     overflow-x: hidden;
   }
 
@@ -61,7 +61,7 @@
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between;
     padding: 1rem 3rem;
-    background: rgba(4,13,30,0.75);
+    background: rgba(4,13,,0.75);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(61,214,245,0.12);
   }
@@ -264,7 +264,7 @@
     width: 280px; height: 280px;
     border-radius: 50%;
     background: radial-gradient(circle, rgba(61,214,245,0.2) 0%, transparent 70%);
-    filter: blur(30px);
+    filter: blur(px);
   }
   .avatar-label {
     position: absolute; bottom: -3rem; left: 50%; transform: translateX(-50%);
@@ -357,7 +357,7 @@
   .hobby-card {
     padding: 2rem;
     border: 1px solid rgba(240,172,27,0.12);
-    background: linear-gradient(135deg, rgba(10,21,53,0.9), rgba(4,13,30,0.9));
+    background: linear-gradient(135deg, rgba(10,21,53,0.9), rgba(4,13,,0.9));
     position: relative;
     overflow: hidden;
     transition: all 0.3s;
@@ -374,7 +374,7 @@
   }
   .hobby-card:hover {
     border-color: rgba(240,172,27,0.35);
-    box-shadow: 0 0 30px rgba(240,172,27,0.06);
+    box-shadow: 0 0 px rgba(240,172,27,0.06);
     transform: translateY(-4px);
   }
   .hobby-card:hover::after { opacity: 1; }
@@ -527,7 +527,7 @@
   }
   .steam-profile-card {
     border: 1px solid rgba(78,159,212,0.25);
-    background: linear-gradient(135deg, rgba(10,21,53,0.95), rgba(4,13,30,0.95));
+    background: linear-gradient(135deg, rgba(10,21,53,0.95), rgba(4,13,,0.95));
     padding: 2rem;
   }
   .steam-header {
@@ -713,7 +713,7 @@
   /* ─── SCROLL ANIMATIONS ─── */
   .fade-up {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(px);
     transition: opacity 0.7s ease, transform 0.7s ease;
   }
   .fade-up.visible {
@@ -770,7 +770,7 @@
     <p class="hero-species">
       <span class="badge">Rottweiler</span>
       <span class="badge">Rhino</span>
-      Hybrid — 30 yrs — South Africa 🇿🇦
+      Hybrid — 31 yrs — South Africa 🇿🇦
     </p>
     <p class="hero-bio">
       Tech enthusiast, IT student, gamer and proud member of the furry community.
